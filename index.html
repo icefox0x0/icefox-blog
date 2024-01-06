@@ -2,18 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8" name="icefox/blog">
-    <title>Index</title>
+    <title>Index page</title>
   </head>
-  <body>
-    <h1>Welcome!😀</h1>
-    <hr />
-    <ul>
-      <li><a href="index.html">English</a></li>
-      <li><a href="home.html" target="_blank"><span color="red">Japanese</span></a></li>
-    </ul>
-    <p>hi there!</p>
-    <a href="mailto:1709943651@qq.com" title="click here">contact me@qq.</a>
-    <a href="mailto:ZHENG_kerry@163.com" title="click here">contact me@163.</a>
-    <a href="mailto:ice-wolf1@outlook.com" title="click here">contact me@outlook</a>
-  </body>
+  <script>
+    var input_passwd = prompt("Please type the password:");
+    if(input_passwd ==="013740x") 
+    {
+      window.location.replace("home.html");
+    }
+    else
+    {
+      alert("404");
+    }
+  </script>
 </html>
