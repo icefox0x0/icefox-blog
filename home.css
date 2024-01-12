@@ -1,8 +1,12 @@
-.header {
+.wrapper {
   display: flex;
 }
 
+.wrapper > div {
+  flex: 1;
+}
+
 #logo {
-    width: 150px;
+    width: 30px;
     height: auto;
 }
