@@ -1,8 +1,9 @@
-.wrapper {
+.wrapper_header {
   display: flex;
+  background: linear-gradient(to right, purple,white);
 }
 
-.wrapper > div {
+.wrapper_header > div {
   flex: 1;
 }
 
