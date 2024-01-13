@@ -1,5 +1,11 @@
+body{
+  background:linear-gradient(grey,white)
+}
+
 .wrapper_header {
   display: flex;
+  font-size:50px
+  font-color:red
   background: linear-gradient(to right, purple,white);
 }
 
@@ -10,4 +16,8 @@
 #logo {
     width: 30px;
     height: auto;
+}
+
+footer{
+  background-color:rgb(0,0,0)
 }
