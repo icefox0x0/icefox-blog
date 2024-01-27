@@ -1,18 +1,19 @@
 @charset "UTF-8"
 
 body{
-  background:linear-gradient(grey,white)
+  background:linear-gradient(grey,white);
 }
 
 .wrapper_header {
+  font-size:50px;
+  color:red;
+  font-weight:normal;
   display: flex;
-  background: linear-gradient(to right, purple,white);
+  background: linear-gradient(to right,purple,white);
 }
 
 .wrapper_header > div {
   flex: 1;
-  font-size:50px
-  font-color:red
 }
 
 #logo {
@@ -20,6 +21,14 @@ body{
     height: auto;
 }
 
+h2{
+    border-bottom:4px solid pink;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
 footer{
-  background-color:rgba(0,0,0,0.4)
+    background-color:rgba(0,0,0,0.4);
 }
