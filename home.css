@@ -21,6 +21,10 @@ body{
     height: auto;
 }
 
+main li{
+   list-style-type:none;
+}
+
 h2{
     border-bottom:4px solid pink;
 }
