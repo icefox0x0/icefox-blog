@@ -3,9 +3,11 @@
 body{
   background:linear-gradient(grey,white);
 }
-
+/*页眉样式*/
 .wrapper_header {
-  font-size:50px;
+  margin:0px;
+  padding:5px;
+  font-size:2.5rem;
   color:red;
   font-weight:normal;
   display: flex;
