@@ -4,7 +4,7 @@ body{
   background:linear-gradient(grey,white);
 }
 /*页眉样式*/
-.wrapper_header {
+header {
   margin:0px;
   padding:5px;
   font-size:2.5rem;
@@ -14,12 +14,12 @@ body{
   background: linear-gradient(to right,purple,white);
 }
 
-.wrapper_header > div {
+header > div {
   flex: 1;
 }
 
 #logo {
-    width: 30px;
+    width: 40px;
     height: auto;
 }
 
@@ -37,4 +37,9 @@ a:hover{
 
 footer{
     background-color:rgba(0,0,0,0.4);
+}
+
+footer > img{
+    width:40px;
+    height:auto;
 }
