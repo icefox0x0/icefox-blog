@@ -14,7 +14,8 @@ header {
   background: linear-gradient(to right,purple,white);
 }
 
-header > div {
+header > li {
+  list-style:none;
   flex: 1;
 }
 
