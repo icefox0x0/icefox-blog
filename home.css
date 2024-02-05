@@ -14,12 +14,12 @@ header {
   background: linear-gradient(to right,purple,white);
 }
 
-header > li {
-  list-style:none;
+header li {
+  list-style-type:none;
   flex: 1;
 }
 
-#logo {
+img {
     width: 40px;
     height: auto;
 }
@@ -38,9 +38,4 @@ a:hover{
 
 footer{
     background-color:rgba(0,0,0,0.4);
-}
-
-footer > img{
-    width:40px;
-    height:auto;
 }
