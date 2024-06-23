@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+  background:linear-gradient(135deg,grey,white);
+}
+/*页眉样式*/
+header {
+  font-size:2.5rem;
+  color:red;
+  font-weight:normal;
+  display: flex;
+  background: linear-gradient(to right,purple,white);
+  border-radius: 10% 10%;
+}
+
+header > li{
+  text-decoration:none;
+  list-style-type:none;
+  flex: 1;
+}
+
+header > img {
+  width: 40px;
+  height: auto;
+}
+
+/*主标题*/
+h2{
+    border-bottom:4px solid pink;
+}
+
+/*页脚*/
+footer{
+  background-color:rgba(0,0,0,0.4);
+}
+
+footer > img{
+  list-style-type:none;
+  width: 25px;
+  height: auto;
+}
+
