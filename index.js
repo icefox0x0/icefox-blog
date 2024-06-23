@@ -1,4 +1,4 @@
-var input_passwd = prompt("drowssap eht epyt esaelP:");
+var input_passwd = prompt(":drowssap eht epyt esaelP");
 //check the person 
 if(input_passwd ==="013740x") 
 {
