@@ -1,8 +1,14 @@
 @charset "UTF-8";
-
+/*消除全局内外边距*/
 *{
-  background:linear-gradient(135deg,grey,white);
+            padding: 0;
+            margin: 0;
 }
+
+body{
+  background: linear-gradient(to bottom right, rgb(114, 135, 254), rgb(130, 88, 186));
+}
+
 /*页眉样式*/
 header {
   font-size:2.5rem;
