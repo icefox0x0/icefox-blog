@@ -18,7 +18,7 @@ h1, h2, h3, h4 {
 
 a:link:hover, a:visited:hover {
 	background-color: #D0D0FF ;
-	color: #000080 ;
+	color: #000000 ;
 	border-radius: 4px ;
 }
 
@@ -37,8 +37,8 @@ header > li{
   list-style-type:none;
 }
 
-header > img {
-  width: 40px;
+#logo{
+  width: 50px;
   height: auto;
 }
 
