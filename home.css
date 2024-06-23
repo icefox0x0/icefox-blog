@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
 }
-
+/*全局设定*/
 body{
   background: linear-gradient(to bottom right, rgb(114, 135, 254), rgb(130, 88, 186));
 }
@@ -16,14 +16,19 @@ h1, h2, h3, h4 {
   text-align: left ;
 }
 
+a:link:hover, a:visited:hover {
+	background-color: #D0D0FF ;
+	color: #000080 ;
+	border-radius: 4px ;
+}
+
 /*页眉样式*/
 header {
   padding: 0;
   margin: 0;
   font-size:1.5rem;
-  color:red;
+  color:white;
   font-weight:normal;
-  display: flex;
   border-radius:20px;
 }
 
@@ -54,6 +59,19 @@ main > h2{
 main > h3{
   font-size:20px;
 }
+
+/*侧边栏*/
+
+aside{
+  line-height: 1.25 ;
+  margin: 16px auto ;
+  padding: 32px ;
+  border: solid #ccc 1px ;
+  border-radius: 20px ;
+  max-width: 500px ;
+  width: 90% ;
+}
+
 footer{
   background-color:white; 
 }
