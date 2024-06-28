@@ -4,7 +4,10 @@ if(input_passwd ==="013740x")
 {
   window.location.replace("home.html");
 }
-else
+else  if(input_passwd==="013740y"){
+  window.location.replace("home2.html");
+}
+else  
 {
   alert("404");
 }
