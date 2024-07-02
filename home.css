@@ -29,7 +29,7 @@ header {
   margin-bottom:20px;
 }
 
-#header> li{
+header>ul> li{
   font-size:1.5rem;
   color:white;
   font-weight:normal;
@@ -46,7 +46,7 @@ header {
 
 /*主体部分*/
 main{
-  line-height: 1.25 ;
+  line-height: 1.5 ;
   margin: 16px auto ;
   padding: 32px ;
   border: solid #ccc 1px ;
