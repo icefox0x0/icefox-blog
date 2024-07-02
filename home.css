@@ -17,9 +17,10 @@ h1, h2, h3, h4 {
 }
 
 a:link:hover, a:visited:hover {
-	background-color: #D0D0FF ;
-	color: #000000 ;
-	border-radius: 4px ;
+  background-color: #D0D0FF ;
+  color: #000000 ;
+  border-radius: 4px ;
+  text-decoration:none;
 }
 
 /*页眉样式*/
@@ -29,12 +30,13 @@ header {
   font-size:1.5rem;
   color:white;
   font-weight:normal;
-  border-radius:20px;
+  margin-bottom:20px;
 }
 
 header > li{
   text-decoration:none;
   list-style-type:none;
+  display:inline;
 }
 
 #logo{
