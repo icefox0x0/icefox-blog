@@ -33,15 +33,16 @@ header {
   margin-bottom:20px;
 }
 
-header > li{
+#header> li{
   text-decoration:none;
   list-style-type:none;
   display:inline;
 }
 
 #logo{
-  width: 50px;
+  width: 20px;
   height: auto;
+  boder:solid 2px;
 }
 
 /*主体部分*/
