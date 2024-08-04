@@ -62,6 +62,17 @@ main > h3{
   font-size:20px;
 }
 
+main > ul{
+  display:flex;
+  margin:10px
+}
+main > ul > li > article{
+  border:solid 20px;
+  border-radius:20px;
+  flex-flow: column wrap;
+  flex:400px;
+}
+
 /*侧边栏*/
 
 aside{
@@ -75,12 +86,11 @@ aside{
 }
 
 footer{
-  background-color:white; 
+  background-color:black; 
 }
 
 .footer{
   width: 2em;
   height: auto;
-  background:#ebebeb；
 }
 
