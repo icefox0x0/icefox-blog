@@ -1,11 +1,7 @@
 @charset "UTF-8";
-/*消除全局内外边距*/
-*{
-  padding: 0;
-  margin: 0;
-}
-/*全局设定*/
+
 body{
+  margin:0;
   background: linear-gradient(to bottom right, rgb(114, 135, 254), rgb(130, 88, 186));
 }
 
@@ -88,7 +84,7 @@ aside{
 }
 
 footer{
-  background-color:black; 
+  background-color:rgb(114, 135, 254); 
 }
 
 .footer{
