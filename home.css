@@ -21,16 +21,15 @@ a:link:hover, a:visited:hover {
 
 /*页眉样式*/
 header {
-  padding: 0;
   margin-bottom:20px;
   /*flexbox activates*/
   display: flex;
+  flex-direction:row;
   align-items: center;
   justify-content: space-around;
-
 }
 
-header>ul> li{
+header>a{
   font-size:1.5rem;
   color:white;
   font-weight:normal;
