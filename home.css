@@ -27,6 +27,11 @@ a:link:hover, a:visited:hover {
 header {
   padding: 0;
   margin-bottom:20px;
+  /*flexbox activates*/
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
 }
 
 header>ul> li{
@@ -35,7 +40,6 @@ header>ul> li{
   font-weight:normal;
   text-decoration:none;
   list-style-type:none;
-  display:inline;
 }
 
 #logo{
@@ -61,16 +65,14 @@ main > h2{
 main > h3{
   font-size:20px;
 }
-
-main > ul{
+main > section{
   display:flex;
-  margin:10px
+  flex-flow: column wrap;
 }
-main > ul > li > article{
+main > section > article{
   border:solid 20px;
   border-radius:20px;
-  flex-flow: column wrap;
-  flex:400px;
+  flex:200px;
 }
 
 /*侧边栏*/
