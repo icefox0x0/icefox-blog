@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body{
+  margin:0;
+  background: linear-gradient(to bottom right, rgb(114, 135, 254), rgb(130, 88, 186));
+}
+
+h1, h2, h3, h4 {
+  color: #000080 ;
+  font-weight: normal ;
+  font-style: normal ;
+  text-align: left ;
+}
+
+a:link:hover, a:visited:hover {
+  background-color: #D0D0FF ;
+  color: #000000 ;
+  border-radius: 4px ;
+  text-decoration:none;
+}
+
+/*页眉样式*/
+header {
+  margin:40px;
+  /*弹性布局*/
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header>a{
+  font-size:4px;
+  font-weight:normal;
+  text-decoration:none;
+  list-style-type:none;
+  /*flex:1;*/
+}
+
+/*#logo{
+  width: 20px;
+  height: auto;
+  boder:solid 2px;
+}*/
+
+/*主体部分*/
+main{
+  background:rgb(114, 135, 254);
+  line-height: 1.5 ;
+  margin: 16px auto ;
+  padding: 16px ;
+  border: solid #ccc 1px ;
+  border-radius: 10px ;
+  max-width: 800px ;
+  width: 60% ;
+}
+main > h2{
+  font-size:40px;
+  border-bottom:2px solid #ebebeb;
+}
+
+main > section{
+  display:flex;
+  flex-flow: column wrap;
+}
+main > section > article{
+  border:solid 2px;
+  border-radius:2px;
+  flex:600px;
+}
+main > section > article > h3{
+  font-size:20px;
+}
+
+/*侧边栏*/
+
+aside{
+  line-height: 1.25 ;
+  margin: 16px auto ;
+  padding: 32px ;
+  border: solid #ccc 1px ;
+  border-radius: 20px ;
+  max-width: 500px ;
+  width: 30% ;
+}
+
+footer{
+  background-color:rgb(114, 135, 254); 
+}
+
+.footer{
+  width: 2em;
+  height: auto;
+}
+
