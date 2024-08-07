@@ -21,8 +21,8 @@ a:link:hover, a:visited:hover {
 
 /*页眉样式*/
 header {
-  margin-bottom:20px;
-  /*flexbox activates*/
+  margin:40px;
+  /*弹性布局*/
   display: flex;
   flex-direction:row;
   align-items: center;
@@ -30,27 +30,27 @@ header {
 }
 
 header>a{
-  font-size:1.5rem;
-  color:white;
+  font-size:4px;
   font-weight:normal;
   text-decoration:none;
   list-style-type:none;
+  /*flex:1;*/
 }
 
-#logo{
+/*#logo{
   width: 20px;
   height: auto;
   boder:solid 2px;
-}
+}*/
 
 /*主体部分*/
 main{
   background:rgb(114, 135, 254);
   line-height: 1.5 ;
   margin: 16px auto ;
-  padding: 32px ;
+  padding: 16px ;
   border: solid #ccc 1px ;
-  border-radius: 20px ;
+  border-radius: 10px ;
   max-width: 800px ;
   width: 60% ;
 }
