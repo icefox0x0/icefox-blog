@@ -17,6 +17,16 @@
       align-items: center;
       justify-content: space-around;
     }
+    section{
+      display:flex;
+      flex-flow:wrap column;
+    }
+    section > article {
+      background:rgb(114, 135, 254)
+      boder:2px solid;
+      boder-radius:10px 10px;
+      flex:200px 1;
+    }
   </style>
 </head>
 <body>
@@ -25,8 +35,37 @@
     <a href="music.html" target="_blank">音乐</a>
     <a href="photo.html" target="_blank">绘画</a>
     <a href="video.html" target="_blank">动画</a>
-    <a href="source.html" target="_blank">资源</a>
+    <a href="source.html" target="_blank">资源</a>    
   </header>
-
+  
+  <main>
+    <h2>看看这些：</h2>
+    <section>
+      <article id="article_001">
+        <h3>金枝玉叶</h3>
+        <p>给花火彩B</p>
+      </article>
+      <article id="article_002">
+        <h3>第二个</h3>
+        <p>干嘛</p>
+      </article>
+      <article id="article_003">
+        <h3>第三个</h3>
+        <p>干嘛</p>
+      </article>
+      <article id="article_004">
+        <h3>第四个</h3>
+        <p>干嘛</p>
+      </article>
+      <article id="article_005">
+        <h3>第五个</h3>
+        <p>干嘛</p>
+      </article>
+      <article id="article_006">
+        <h3>第六个</h3>
+        <p>干嘛</p>
+      </article>
+    </section>
+  </main>
 </body>
 </html>
