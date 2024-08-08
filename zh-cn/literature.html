@@ -10,36 +10,53 @@
     }
     /*页眉样式*/
     header {
-      margin:40px;
+      margin:0;
+      text-align:center;
+      background:purple;
+    }
+    header > h2 {
+      margin-top:15px;
+      font-weight:normal;
+      color:white;
+    }
+    header > section {
       /*弹性布局*/
       display: flex;
       flex-direction:row;
       align-items: center;
       justify-content: space-around;
+
     }
-    section{
+    header > section > a{
+      border-top:white solid 2px;
+    }
+    
+    /*主体部分*/
+    main > section{
       display:flex;
-      flex-flow:wrap column;
+      flex-flow:wrap row;
     }
-    section > article {
+    main > section > article {
       background:rgb(114, 135, 254)
-      boder:2px solid;
-      boder-radius:10px 10px;
+      border:2px solid;
+      border-radius:10px 10px;
       flex:200px 1;
     }
   </style>
 </head>
 <body>
   <header>
+    <h2>文字</h2>
+    <section>
     <a href="home.html" target="_blank">主页</a>
     <a href="music.html" target="_blank">音乐</a>
     <a href="photo.html" target="_blank">绘画</a>
     <a href="video.html" target="_blank">动画</a>
-    <a href="source.html" target="_blank">资源</a>    
+    <a href="source.html" target="_blank">资源</a>   
+    </section>
   </header>
   
   <main>
-    <h2>看看这些：</h2>
     <section>
       <article id="article_001">
         <h3>金枝玉叶</h3>
@@ -67,5 +84,7 @@
       </article>
     </section>
   </main>
+
+  <footer></footer>
 </body>
 </html>
