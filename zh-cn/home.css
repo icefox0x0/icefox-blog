@@ -20,8 +20,20 @@ a:link:hover, a:visited:hover {
 }
 
 /*页眉样式*/
-header {
-  margin:40px;
+header{
+  margin:0;
+  background:url("../photo/Monet.jpg") no-repeat center;
+  
+}
+
+#logo{
+  width: 20px;
+  height: auto;
+  border:solid 2px;
+}
+
+header > section {
+  margin-top:40px;
   /*弹性布局*/
   display: flex;
   flex-direction:row;
@@ -29,8 +41,8 @@ header {
   justify-content: space-around;
 }
 
-header>a{
-  boder-top:4px solid white;
+header > section > a{
+  border-top:4px solid white;
   font-size:32px;
   font-weight:normal;
   text-decoration:none;
@@ -38,11 +50,6 @@ header>a{
   /*flex:1;*/
 }
 
-/*#logo{
-  width: 20px;
-  height: auto;
-  boder:solid 2px;
-}*/
 
 /*主体部分*/
 main{
@@ -87,6 +94,7 @@ aside{
 
 footer{
   background-color:rgb(114, 135, 254); 
+  text-align:center;
 }
 
 .footer{
