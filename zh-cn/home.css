@@ -75,6 +75,7 @@ main > section > article{
   border:solid 2px white;
   border-radius:2px;
   flex:600px;
+  margin:10px;
 }
 main > section > article > h3{
   font-size:20px;
@@ -90,6 +91,7 @@ aside{
   border-radius: 20px ;
   max-width: 500px ;
   width: 30% ;
+  background:rgb(114, 135, 254);
 }
 
 footer{
