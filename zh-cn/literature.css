@@ -41,3 +41,16 @@ main > section > article {
   border-radius:10px 10px;
   flex:200px 1;
 }
+
+/*页脚*/
+footer{
+  height:30px;
+  padding:10px;
+  background-color:rgb(114, 135, 254); 
+  text-align:center;
+}
+
+.footer{
+  width: 2em;
+  height: auto;
+}
