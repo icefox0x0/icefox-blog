@@ -22,8 +22,8 @@ a:link:hover, a:visited:hover {
 /*页眉样式*/
 header{
   margin:0;
-  background:url("../photo/Monet.jpg") no-repeat center;
-  
+  background:url("../photo/monet.jpg") no-repeat center;
+  text-align:center;
 }
 
 #logo{
@@ -74,7 +74,7 @@ main > section{
 main > section > article{
   border:solid 2px white;
   border-radius:2px;
-  flex:600px;
+  flex:100px;
   margin:10px;
 }
 main > section > article > h3{
