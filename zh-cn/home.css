@@ -39,10 +39,11 @@ header > section {
   display: flex;
   flex-direction:row;
   align-items: center;
-  /*justify-content: space-around;*/
+  justify-content: space-around;
 }
 
 header > section > a{
+  color:white;
   border-top:4px solid white;
   font-size:32px;
   font-weight:normal;
