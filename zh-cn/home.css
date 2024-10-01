@@ -55,7 +55,7 @@ header > section > a{
 
 /*主体部分*/
 main{
-  background:white;
+  background:black;
   line-height: 1.5 ;
   margin: 16px auto ;
   padding: 16px;
@@ -97,7 +97,7 @@ aside{
 }
 
 footer{
-  background-color:black; 
+  background-color:white; 
   text-align:center;
 }
 
