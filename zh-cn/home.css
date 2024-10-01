@@ -2,11 +2,11 @@
 
 body{
   margin:0;
-  background: linear-gradient(to bottom right, rgb(114, 135, 254), rgb(130, 88, 186));
+  /*background: linear-gradient(to bottom right, rgb(114, 135, 254), rgb(130, 88, 186));*/
 }
 
 h1, h2, h3, h4 {
-  color: #000080 ;
+  color: white ;
   font-weight: normal ;
   font-style: normal ;
   text-align: left ;
@@ -14,26 +14,27 @@ h1, h2, h3, h4 {
 
 a:link:hover, a:visited:hover {
   background-color: #D0D0FF ;
-  color: #000000 ;
+  color:white ;
   border-radius: 4px ;
   text-decoration:none;
 }
 
 /*页眉样式*/
 header{
-  margin:5px;
-  background:rgb(114, 135, 254) url("../photo/monet.jpg") no-repeat center;
+  padding:10px;
+  background:black;
   text-align:center;
 }
 
 #logo{
-  width: 40px;
+  width: 60px;
   height: auto;
   border:solid 2px;
+  border-radius:2px;
 }
 
 header > section {
-  margin-top:20px;
+  text-align:center;
   /*弹性布局*/
   display: flex;
   flex-direction:row;
@@ -53,26 +54,26 @@ header > section > a{
 
 /*主体部分*/
 main{
+  background:white;
   line-height: 1.5 ;
   margin: 16px auto ;
-  padding: 16px ;
-  border: solid #ccc 1px ;
-  border-radius: 10px ;
+  padding: 16px;
   max-width: 800px ;
   width: 60% ;
 }
 main > h2{
   font-size:40px;
-  border-bottom:2px solid #ebebeb;
+  border-bottom:2px solid;
 }
 
 main > section{
-  background:rgb(114, 135, 254);
+  background:black;
   display:flex;
   flex-flow: column wrap;
 }
 main > section > article{
-  border:solid 2px white;
+  background:white;
+  border:solid 2px red;
   border-radius:2px;
   flex:100px;
   margin:10px;
@@ -87,15 +88,15 @@ aside{
   line-height: 1.25 ;
   margin: 16px auto ;
   padding: 32px ;
-  border: solid #ccc 1px ;
+  border: solid red 2px ;
   border-radius: 20px ;
   max-width: 500px ;
   width: 30% ;
-  background:rgb(114, 135, 254);
+  background:black;
 }
 
 footer{
-  background-color:rgb(114, 135, 254); 
+  background-color:black; 
   text-align:center;
 }
 
