@@ -2,7 +2,7 @@
 
 body{
   margin:0;
-  /*background: linear-gradient(to bottom right, rgb(114, 135, 254), rgb(130, 88, 186));*/
+  /*background: linear-gradient(to bottom , white , black);*/
 }
 
 h1, h2, h3, h4 {
@@ -14,7 +14,6 @@ h1, h2, h3, h4 {
 
 a:link:hover, a:visited:hover {
   background-color: #D0D0FF ;
-  color:white ;
   border-radius: 4px ;
   text-decoration:none;
 }
@@ -24,6 +23,7 @@ header{
   padding:10px;
   background:black;
   text-align:center;
+  height:20%;
 }
 
 #logo{
@@ -45,6 +45,7 @@ header > section {
 header > section > a{
   color:white;
   border-top:4px solid white;
+  padding:10px;
   font-size:32px;
   font-weight:normal;
   text-decoration:none;
