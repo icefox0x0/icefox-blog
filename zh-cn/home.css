@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/*全局设定*/
 body{
   margin:0;
   /*background: linear-gradient(to bottom , white , black);*/
@@ -23,7 +23,7 @@ header{
   padding:10px;
   background:black;
   text-align:center;
-  height:20%;
+  height:25%;
 }
 
 #logo{
@@ -44,7 +44,7 @@ header > section {
 
 header > section > a{
   color:white;
-  border-top:4px solid white;
+  border-top:16px solid white;
   padding:10px;
   font-size:32px;
   font-weight:normal;
